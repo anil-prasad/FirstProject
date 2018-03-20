@@ -63,4 +63,19 @@ const styles = StyleSheet.create ({
     }
 });
 
+const MockBooks = [
+    {
+        rank: 1,
+        title: "GATHERING PREY",
+        author: "John Sandford",
+        book_image: "https://marketplace.canva.com/MACSXEOzaeQ/1/0/thumbnail_large/canva-orange-and-dark-purple-triangular-modern-architecture-book-cover-MACSXEOzaeQ.jpg"
+    },
+    {
+        rank: 2,
+        title: "MEMORY MAN",
+        author: "david Baldacci",
+        book_image: "http://www.esri.com/~/media/Images/Content/news/releases/16-1qtr/esri-publishes-the-workbook-getting-to-know-arcgis-pro-lg.jpg"
+    }
+];
+
 export default SimpleList;
