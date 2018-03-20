@@ -50,7 +50,7 @@ class WeatherProject extends Component {
                     <View style = {styles.overlay}>
                         <View style = {styles.row}>
                             <Text style = {styles.mainText}>
-                                Current weather for
+                                Current weather of
                             </Text>
                             <View style = {styles.zipContainer}>
                                 <TextInput
@@ -118,8 +118,8 @@ const styles = StyleSheet.create({
     zipCode: {
         flex: 1,
         flexBasis: 1,
-        width: 50,
-        height: baseFontSize
+        width: 80,
+        height: baseFontSize,
     },
     mainText: {
         fontSize: baseFontSize,
